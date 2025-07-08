@@ -22,7 +22,3 @@ Clona el repositorio:
 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Abre un issue o haz un pull request para sugerencias o mejoras.
-
-¿Quieres que lo adapte a tecnologías específicas que estás usando (como React, Vue, etc.) o quieres que agregue detalles sobre autenticación, favoritos, etc.?
