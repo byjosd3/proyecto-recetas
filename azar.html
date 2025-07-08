@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recetas Sin Restricciones</title>
+  <link rel="stylesheet" href="azar.css" />
+</head>
+<body>
+
+  <!-- 🔍 NAVBAR -->
+  <header>
+    <nav>
+      <h1>Recetas Sin Restricciones</h1>
+      <input type="text" id="searchInput" placeholder="Buscar receta por nombre..." />
+      <button id="searchBtn">Buscar</button>
+    </nav>
+  </header>
+
+  <!-- 🖼️ HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="https://via.placeholder.com/300x200?text=Receta+Saludable" alt="Imagen de receta saludable" />
+      <div>
+        <h2>Recetas libres de gluten, alérgenos y más</h2>
+        <p>Encuentra opciones seguras, ricas y conscientes para tu alimentación</p>
+        <button id="randomBtn">🎲 Receta al azar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🧩 FILTROS -->
+  <section class="filtros">
+    <h3>Filtrar por:</h3>
+    <div class="filtro-opciones">
+      <select id="ingredientesSelect">
+        <option value="">Ingredientes</option>
+        <!-- Ejemplos -->
+        <option value="chicken">Pollo</option>
+        <option value="rice">Arroz</option>
+        <option value="tomato">Tomate</option>
+      </select>
+
+      <select id="categoriasSelect">
+        <option value="">Categoría</option>
+        <!-- Ejemplos -->
+        <option value="Dessert">Postre</option>
+        <option value="Vegetarian">Vegetariana</option>
+        <option value="Seafood">Mariscos</option>
+      </select>
+
+      <select id="paisesSelect">
+        <option value="">País</option>
+        <!-- Ejemplos -->
+        <option value="Spanish">España</option>
+        <option value="Mexican">México</option>
+        <option value="Japanese">Japón</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- 📋 RESULTADOS FILTROS (futuro uso) -->
+  <section class="resultados">
+    <h3>Resultados</h3>
+    <div id="resultadosContainer">
+      <!-- Aquí aparecerán resultados si se implementan los filtros -->
+    </div>
+  </section>
+
+  <!-- 🍽️ RECETA AL AZAR -->
+  <section id="receta-azar" class="receta-contenedor">
+    <h3 id="recetaNombre"></h3>
+    <div class="receta-grid">
+      <div class="receta-info">
+        <h4>Ingredientes</h4>
+        <ul id="listaIngredientes"></ul>
+      </div>
+      <div class="receta-imagen">
+        <img id="recetaImagen" src="" alt="Imagen receta" />
+      </div>
+    </div>
+    <div class="receta-instrucciones">
+      <h4>Preparación</h4>
+      <p id="recetaInstrucciones"></p>
+    </div>
+  </section>
+
+  <script src="azar.js"></script>
+</body>
+</html>
+
