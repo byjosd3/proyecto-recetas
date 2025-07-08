@@ -1,7 +1,9 @@
 **🍽️ Recetas Web App**
+
 Una aplicación web que permite explorar, buscar y ver recetas de cocina utilizando una API externa. Ideal para quienes disfrutan cocinar y descubrir nuevos platos fácilmente desde cualquier dispositivo.
 
 **🚀 Características**
+
 🔎 Búsqueda de recetas por nombre y filtrar
 
 📋 Visualización detallada de ingredientes y pasos de preparación
@@ -9,6 +11,7 @@ Una aplicación web que permite explorar, buscar y ver recetas de cocina utiliza
 📱 Diseño responsive para usar en móvil y escritorio
 
 *🛠️ Tecnologías utilizadas*
+
 HTML / CSS / JavaScript
 
 API:  TheMealDB
