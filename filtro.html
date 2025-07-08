@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookly</title>
+    <link rel="stylesheet" href="filtro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="filter-search-section">
+        <div class="container">
+            <h2>Find Your Perfect Recipe</h2>
+            
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="category">Category</label>
+                    <select id="category">
+                        <option value="">All Categories</option>
+                        <!-- Filled by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="ingredient">Ingredient</label>
+                    <select id="ingredient">
+                        <option value="">All Ingredients</option>
+                        <!-- Filled by JavaScript -->
+
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="country">Country</label>
+                    <select id="country">
+                        <option value="">All Countries</option>
+                        <!-- Filled by JavaScript -->
+                    </select>
+                </div>
+                
+                <button id="search-btn" class="btn">Search Recipes</button>
+            </div>
+            
+            <div class="results-container" id="results-container">
+                <div class="empty-state">
+                    <i class="fas fa-utensils"></i>
+                    <p>Select filters and click search to find recipes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="filtro.js"></script>
+</body>
+</html>
