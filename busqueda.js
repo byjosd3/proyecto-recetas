@@ -1,0 +1,330 @@
+const recipe = {
+    "meals": [
+        {
+            "idMeal": "52960",
+            "strMeal": "Salmon Avocado Salad",
+            "strMealAlternate": null,
+            "strCategory": "Seafood",
+            "strArea": "British",
+            "strInstructions": "Season the salmon, then rub with oil. Mix the dressing ingredients together. Halve, stone, peel and slice the avocados. Halve and quarter the cucumber lengthways, then cut into slices. Divide salad, avocado and cucumber between four plates, then drizzle with half the dressing.\r\n\r\nHeat a non-stick pan. Add the salmon and fry for 3-4 mins on each side until crisp but still moist inside. Put a salmon fillet on top of each salad and drizzle over the remaining dressing. Serve warm.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
+            "strTags": "Paleo,Keto,LowCarbs,Salad,Alcoholic,Halloween,",
+            "strYoutube": "https://www.youtube.com/watch?v=FJiu2S0Xap0",
+            "strIngredient1": "Salmon",
+            "strIngredient2": "Avocado",
+            "strIngredient3": "Cucumber",
+            "strIngredient4": "Spinach",
+            "strIngredient5": "Mint",
+            "strIngredient6": "Lime",
+            "strIngredient7": "Honey",
+            "strIngredient8": "Olive Oil",
+            "strIngredient9": "",
+            "strIngredient10": "",
+            "strIngredient11": "",
+            "strIngredient12": "",
+            "strIngredient13": "",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": "",
+            "strIngredient17": "",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "400g",
+            "strMeasure2": "3",
+            "strMeasure3": "1",
+            "strMeasure4": "400g",
+            "strMeasure5": "4 tbs",
+            "strMeasure6": "zest and juice of 1",
+            "strMeasure7": "2 tsp",
+            "strMeasure8": "3 tbs",
+            "strMeasure9": "",
+            "strMeasure10": "",
+            "strMeasure11": "",
+            "strMeasure12": "",
+            "strMeasure13": "",
+            "strMeasure14": "",
+            "strMeasure15": "",
+            "strMeasure16": "",
+            "strMeasure17": "",
+            "strMeasure18": "",
+            "strMeasure19": "",
+            "strMeasure20": "",
+            "strSource": "https://www.bbcgoodfood.com/recipes/4521/salmon-avocado-and-cucumber-salad",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        },
+        {
+            "idMeal": "52777",
+            "strMeal": "Mediterranean Pasta Salad",
+            "strMealAlternate": null,
+            "strCategory": "Seafood",
+            "strArea": "Italian",
+            "strInstructions": "Bring a large saucepan of salted water to the boil\r\nAdd the pasta, stir once and cook for about 10 minutes or as directed on the packet.\r\nMeanwhile, wash the tomatoes and cut into quarters. Slice the olives. Wash the basil.\r\nPut the tomatoes into a salad bowl and tear the basil leaves over them. Add a tablespoon of olive oil and mix.\r\nWhen the pasta is ready, drain into a colander and run cold water over it to cool it quickly.\r\nToss the pasta into the salad bowl with the tomatoes and basil.\r\nAdd the sliced olives, drained mozzarella balls, and chunks of tuna. Mix well and let the salad rest for at least half an hour to allow the flavours to mingle.\r\nSprinkle the pasta with a generous grind of black pepper and drizzle with the remaining olive oil just before serving.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+            "strTags": "Pasta,Baking",
+            "strYoutube": "https://www.youtube.com/watch?v=e52IL8zYmaE",
+            "strIngredient1": "mozzarella balls",
+            "strIngredient2": "baby plum tomatoes",
+            "strIngredient3": "fresh basil",
+            "strIngredient4": "farfalle",
+            "strIngredient5": "extra virgin olive oil",
+            "strIngredient6": "Green Olives",
+            "strIngredient7": "tuna",
+            "strIngredient8": "salt",
+            "strIngredient9": "pepper",
+            "strIngredient10": "",
+            "strIngredient11": "",
+            "strIngredient12": "",
+            "strIngredient13": "",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": null,
+            "strIngredient17": null,
+            "strIngredient18": null,
+            "strIngredient19": null,
+            "strIngredient20": null,
+            "strMeasure1": "200 g",
+            "strMeasure2": "250 g",
+            "strMeasure3": "1  bunch",
+            "strMeasure4": "350 g",
+            "strMeasure5": "3  tablespoons",
+            "strMeasure6": "40 g",
+            "strMeasure7": "200 g",
+            "strMeasure8": "to taste",
+            "strMeasure9": "to taste",
+            "strMeasure10": "",
+            "strMeasure11": "",
+            "strMeasure12": "",
+            "strMeasure13": "",
+            "strMeasure14": "",
+            "strMeasure15": "",
+            "strMeasure16": null,
+            "strMeasure17": null,
+            "strMeasure18": null,
+            "strMeasure19": null,
+            "strMeasure20": null,
+            "strSource": "https://thelemonsqueezy.com/recipe/mediterranean-pasta-salad/",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        },
+        {
+            "idMeal": "53011",
+            "strMeal": "Chicken Quinoa Greek Salad",
+            "strMealAlternate": null,
+            "strCategory": "Chicken",
+            "strArea": "Greek",
+            "strInstructions": "Cook the quinoa following the pack instructions, then rinse in cold water and drain thoroughly.\r\n\r\nMeanwhile, mix the butter, chilli and garlic into a paste. Toss the chicken fillets in 2 tsp of the olive oil with some seasoning. Lay in a hot griddle pan and cook for 3-4 mins each side or until cooked through. Transfer to a plate, dot with the spicy butter and set aside to melt.\r\n\r\nNext, tip the tomatoes, olives, onion, feta and mint into a bowl. Toss in the cooked quinoa. Stir through the remaining olive oil, lemon juice and zest, and season well. Serve with the chicken fillets on top, drizzled with any buttery chicken juices.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
+            "strTags": null,
+            "strYoutube": "https://www.youtube.com/watch?v=akcrkXYr61M",
+            "strIngredient1": "Quinoa",
+            "strIngredient2": "Butter",
+            "strIngredient3": "Red Chilli",
+            "strIngredient4": "Garlic",
+            "strIngredient5": "Chicken Breast",
+            "strIngredient6": "Olive Oil",
+            "strIngredient7": "Black Olives",
+            "strIngredient8": "Red Onions",
+            "strIngredient9": "Feta",
+            "strIngredient10": "Mint",
+            "strIngredient11": "Lemon",
+            "strIngredient12": "",
+            "strIngredient13": "",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": "",
+            "strIngredient17": "",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "225g",
+            "strMeasure2": "25g",
+            "strMeasure3": "1 chopped",
+            "strMeasure4": "1 clove finely chopped",
+            "strMeasure5": "400g",
+            "strMeasure6": "2 tbs",
+            "strMeasure7": "Handful",
+            "strMeasure8": "1 chopped",
+            "strMeasure9": "100g ",
+            "strMeasure10": "Chopped",
+            "strMeasure11": "Juice of 1/2",
+            "strMeasure12": " ",
+            "strMeasure13": " ",
+            "strMeasure14": " ",
+            "strMeasure15": " ",
+            "strMeasure16": " ",
+            "strMeasure17": " ",
+            "strMeasure18": " ",
+            "strMeasure19": " ",
+            "strMeasure20": " ",
+            "strSource": "https://www.bbcgoodfood.com/recipes/griddled-chicken-quinoa-greek-salad",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        },
+        {
+            "idMeal": "53081",
+            "strMeal": "Potato Salad (Olivier Salad)",
+            "strMealAlternate": null,
+            "strCategory": "Vegetarian",
+            "strArea": "Russian",
+            "strInstructions": "Cut the potatoes and carrots into small uniform cubes.\r\nPlace them in a large pot and fill with water.\r\nAdd salt and vinegar. Bring it to a boil over medium high heat, and then reduce the heat to medium and continue to cook until the potatoes are cooked through, about 15 minutes. Drain the potatoes and let it cool to room temperature.\r\nMeanwhile, cut the sausage and pickles into small cubes, and chop the green onions.\r\nCut the hard-boiled eggs into small cubes as well.\r\nIf using fresh dill, chop them as well.\r\nIn a large bowl, combine potatoes, carrots, sausage, pickles, peas and green onions.\r\nAdd mayo and dill and mix until well combined.\r\nSalt and pepper to taste. Cover with a plastic wrap and refrigerate for at least 1 hour before serving.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/ebvuir1699013665.jpg",
+            "strTags": "Salad",
+            "strYoutube": "https://www.youtube.com/watch?v=RnsWwHcpKiY",
+            "strIngredient1": "Potatoes",
+            "strIngredient2": "Carrots",
+            "strIngredient3": "Salt",
+            "strIngredient4": "White Wine Vinegar",
+            "strIngredient5": "Eggs",
+            "strIngredient6": "Sausages",
+            "strIngredient7": "Dill",
+            "strIngredient8": "Peas",
+            "strIngredient9": "Onions",
+            "strIngredient10": "Mayonnaise",
+            "strIngredient11": "",
+            "strIngredient12": "",
+            "strIngredient13": "",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": "",
+            "strIngredient17": "",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "4",
+            "strMeasure2": "3",
+            "strMeasure3": "1 tbs",
+            "strMeasure4": "1/2 tbs",
+            "strMeasure5": "4",
+            "strMeasure6": "7 oz ",
+            "strMeasure7": "4 oz ",
+            "strMeasure8": "1 can ",
+            "strMeasure9": "4",
+            "strMeasure10": "1 cup ",
+            "strMeasure11": " ",
+            "strMeasure12": " ",
+            "strMeasure13": " ",
+            "strMeasure14": " ",
+            "strMeasure15": " ",
+            "strMeasure16": " ",
+            "strMeasure17": " ",
+            "strMeasure18": " ",
+            "strMeasure19": " ",
+            "strMeasure20": " ",
+            "strSource": "https://www.sweetandsavorybyshinee.com/russian-potato-salad/",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        },
+        {
+            "idMeal": "52797",
+            "strMeal": "Spicy North African Potato Salad",
+            "strMealAlternate": null,
+            "strCategory": "Vegetarian",
+            "strArea": "Moroccan",
+            "strInstructions": "Cook potatoes - place potatoes in a pot of cold water, and bring to the boil. Boil 20 minutes, or until potatoes are tender. You know they are cooked when you can stick a knife in them and the knife goes straight through.\r\nCombine harissa spice, olive oil, salt and pepper and lemon juice in a small bowl and whisk until combined.\r\nOnce potatoes are cooked, drain water and roughly chop potatoes in half.\r\nAdd harissa mix and spring onions/green onions to potatoes and stir.\r\nIn a large salad bowl, lay out arugula/rocket.\r\nTop with potato mix and toss.\r\nAdd fetta, mint and sprinkle over pine nuts.\r\nAdjust salt and pepper to taste.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/urtwux1486983078.jpg",
+            "strTags": "Vegetarian,Spicy",
+            "strYoutube": "https://www.youtube.com/watch?v=zxBzwJvTK4g",
+            "strIngredient1": "Small Potatoes",
+            "strIngredient2": "Harissa Spice",
+            "strIngredient3": "olive oil",
+            "strIngredient4": "Lemon",
+            "strIngredient5": "Spring onions",
+            "strIngredient6": "Rocket",
+            "strIngredient7": "Feta",
+            "strIngredient8": "Mint",
+            "strIngredient9": "Pine nuts",
+            "strIngredient10": "Salt",
+            "strIngredient11": "Pepper",
+            "strIngredient12": "",
+            "strIngredient13": "",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": "",
+            "strIngredient17": "",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "650g/1lb 8 oz",
+            "strMeasure2": "1 tsp",
+            "strMeasure3": "2 tsp",
+            "strMeasure4": "juice of half",
+            "strMeasure5": "4",
+            "strMeasure6": "150g/6oz",
+            "strMeasure7": "80g/3oz",
+            "strMeasure8": "20 chopped",
+            "strMeasure9": "2 tablespoons",
+            "strMeasure10": "Pinch",
+            "strMeasure11": "Pinch",
+            "strMeasure12": "",
+            "strMeasure13": "",
+            "strMeasure14": "",
+            "strMeasure15": "",
+            "strMeasure16": "",
+            "strMeasure17": "",
+            "strMeasure18": "",
+            "strMeasure19": "",
+            "strMeasure20": "",
+            "strSource": "",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        }
+    ]
+}
+
+function createmealscard(food) {
+    const article = document.createElement("article");
+    const title = document.createmealscard("h2");
+    const strCategory = document.createmealscard("p");
+    const image = document.createmealscard("img");
+    const strInstructions = document.createmealscard("p");
+
+    article.setAttribute("idMeal", "strMeal- " + strMeal.id)
+    article.classList.add("card", "meal-card");
+
+    title.textContent = food.strMeal;
+
+    strCategory.textContent = food.strCategory;
+
+    strInstructions.textContent = food.strInstructions;
+    -
+    image.src = food.strMealThumb;
+
+
+    article.append(title, description, release_date, score);
+    return article;
+}
+
+const card = createFilmCard(films[i]) {
+    const section = document.getElementById("film-list")
+    section.innerHTML = "";
+    const films = response.results;
+    if (films.length === 0) {
+        section.innerHTML = `
+        <p>No results found</p>
+        `
+        return;
+    }
+    for (let i = 0; i < films.length; i++) {
+        const card = createFilmCard(films[i]);
+        section.appendChild(card);
+    }
+
+}
+
+
+//createCardsFromResponse(response)
+
+const elemento = document.getElementById("prueba");
+if (elemento) {
+    console.log("hemos llegado")
+    elemento.textContent = "hola mundo";
+} else {
+    console.log("no hemos llegado")
+}
