@@ -1,5 +1,6 @@
-const reponse = {
-    "meals": [
+const response = {
+    "page": 1,
+  "meals": [
         {
             "idMeal": "52960",
             "strMeal": "Salmon Avocado Salad",
@@ -278,7 +279,7 @@ const reponse = {
     ]
 }
 
-function createCard(ricipe) {
+function createCard(recipe) {
     const article = document.createElement("article");
     const textDiv = document.createElement("div")
     const title = document.createElement("h4");
@@ -289,14 +290,17 @@ function createCard(ricipe) {
     article.classList.add("card");
 
     title.textContent = recipe.strMeal;
+    title.classList.add("title");
 
     strCategory.textContent = recipe.strCategory;
+    strCategory.classList.add("category");
 
     image.src = recipe.strMealThumb;
+    image.classList.add("image");
 
 
     article.append(image, textDiv);
-    textDiv.append(title, strCategory)
+    textDiv.append(title, strCategory);
 
     return article;
 }
@@ -312,9 +316,37 @@ function createCardsRecipes(response) {
         return;
     }
     for (let i = 0; i < meals.length; i++) {
-        const card = createRecipeCard(meals[i]);
+        const card = createCard(meals[i]);
         section.appendChild(card);
     }
 }
 
 createCardsRecipes(response);
+
+function filterRecipes(searchTerm){
+  const recipes = document.getElementsByClassName("card");
+  for(let i=0; i < recipes.length; i++){
+    const recipe = recipes[i];
+    const title = recipe.querySelector(".title").textContent;
+    const category = recipe.querySelector(".category").textContent;
+    
+    console.log(recipe)
+    if( (title.includes(searchTerm)|| category.includes(searchTerm))){
+      recipe.classList.remove("hidden");
+    }else{
+      recipe.classList.add("hidden");
+    }
+
+  }
+}
+
+const form = document.querySelector("#busqueda");
+form.addEventListener("submit",(event)=>{
+  event.preventDefault();
+  const formulario = event.target;
+  const input = formulario.inputBusqueda;
+
+  const searchTerm = input.value;
+    console.log(searchTerm)
+  filterRecipes(searchTerm)
+})
