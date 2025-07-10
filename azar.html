@@ -11,7 +11,7 @@
   <!-- 🔍 NAVBAR -->
   <header>
     <nav>
-      <h1>Recetas Sin Restricciones</h1>
+      <h1>COOKLY</h1>
       <input type="text" id="searchInput" placeholder="Buscar receta por nombre..." />
       <button id="searchBtn">Buscar</button>
     </nav>
@@ -30,34 +30,47 @@
   </section>
 
   <!-- 🧩 FILTROS -->
-  <section class="filtros">
-    <h3>Filtrar por:</h3>
-    <div class="filtro-opciones">
-      <select id="ingredientesSelect">
-        <option value="">Ingredientes</option>
-        <!-- Ejemplos -->
-        <option value="chicken">Pollo</option>
-        <option value="rice">Arroz</option>
-        <option value="tomato">Tomate</option>
-      </select>
+    <section class="filter-search-section">
+        <div class="container">
+            <h2>Find Your Perfect Recipe</h2>
+            
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="category">Category</label>
+                    <select id="category">
+                        <option value="">All Categories</option>
+                        <!-- Filled by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="ingredient">Ingredient</label>
+                    <select id="ingredient">
+                        <option value="">All Ingredients</option>
+                        <!-- Filled by JavaScript -->
 
-      <select id="categoriasSelect">
-        <option value="">Categoría</option>
-        <!-- Ejemplos -->
-        <option value="Dessert">Postre</option>
-        <option value="Vegetarian">Vegetariana</option>
-        <option value="Seafood">Mariscos</option>
-      </select>
-
-      <select id="paisesSelect">
-        <option value="">País</option>
-        <!-- Ejemplos -->
-        <option value="Spanish">España</option>
-        <option value="Mexican">México</option>
-        <option value="Japanese">Japón</option>
-      </select>
-    </div>
-  </section>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="country">Country</label>
+                    <select id="country">
+                        <option value="">All Countries</option>
+                        <!-- Filled by JavaScript -->
+                    </select>
+                </div>
+                
+                <button id="search-btn" class="btn">Search Recipes</button>
+            </div>
+            
+            <div id="results-container">
+            <!-- Results will be displayed here -->
+            <div class="no-results">
+                <p>Select filters and click "Search Recipes" to find delicious recipes!</p>
+            </div>
+        </div>
+        </div>
+    </section>
 
   <!-- 📋 RESULTADOS FILTROS (futuro uso) -->
   <section class="resultados">
