@@ -170,3 +170,16 @@ select {
 .receta-instrucciones {
   margin-top: 2rem;
 }
+
+
+
+/* ==== PRUEBAS VISIBILIDAD DINAMICA ==== */
+
+.resultados,
+#receta-azar {
+  display: none;
+}
+
+.oculto {
+  display: none;
+}
