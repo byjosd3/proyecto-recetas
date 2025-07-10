@@ -1,4 +1,4 @@
-const recipe = {
+const reponse = {
     "meals": [
         {
             "idMeal": "52960",
@@ -278,53 +278,43 @@ const recipe = {
     ]
 }
 
-function createmealscard(food) {
+function createCard(ricipe) {
     const article = document.createElement("article");
-    const title = document.createmealscard("h2");
-    const strCategory = document.createmealscard("p");
-    const image = document.createmealscard("img");
-    const strInstructions = document.createmealscard("p");
+    const textDiv = document.createElement("div")
+    const title = document.createElement("h4");
+    const strCategory = document.createElement("p");
+    const image = document.createElement("img");
 
-    article.setAttribute("idMeal", "strMeal- " + strMeal.id)
-    article.classList.add("card", "meal-card");
+    article.setAttribute("id", "recipe: " + "recipe.idMeal")
+    article.classList.add("card");
 
-    title.textContent = food.strMeal;
+    title.textContent = recipe.strMeal;
 
-    strCategory.textContent = food.strCategory;
+    strCategory.textContent = recipe.strCategory;
 
-    strInstructions.textContent = food.strInstructions;
-    -
-    image.src = food.strMealThumb;
+    image.src = recipe.strMealThumb;
 
 
-    article.append(title, description, release_date, score);
+    article.append(image, textDiv);
+    textDiv.append(title, strCategory)
+
     return article;
 }
 
-const card = createFilmCard(films[i]) {
-    const section = document.getElementById("film-list")
+function createCardsRecipes(response) {
+    const section = document.getElementById("recipes-list");
     section.innerHTML = "";
-    const films = response.results;
-    if (films.length === 0) {
+    const meals = response.meals;
+    if (meals.length === 0) {
         section.innerHTML = `
         <p>No results found</p>
         `
         return;
     }
-    for (let i = 0; i < films.length; i++) {
-        const card = createFilmCard(films[i]);
+    for (let i = 0; i < meals.length; i++) {
+        const card = createRecipeCard(meals[i]);
         section.appendChild(card);
     }
-
 }
 
-
-//createCardsFromResponse(response)
-
-const elemento = document.getElementById("prueba");
-if (elemento) {
-    console.log("hemos llegado")
-    elemento.textContent = "hola mundo";
-} else {
-    console.log("no hemos llegado")
-}
+createCardsRecipes(response);
