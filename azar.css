@@ -78,11 +78,7 @@ nav button:hover {
   align-items: center;
 }
 
-.hero-content img {
-  width: 300px;
-  border-radius: 12px;
-  object-fit: cover;
-}
+
 
 .hero-content div {
   max-width: 500px;
@@ -326,6 +322,14 @@ select {
     .btn {
         width: 100%;
     }
+
+    .hero-content {
+      display: in;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: start;
+}
+    
 }
 
 
@@ -342,10 +346,54 @@ select {
 
 
 
-
+/* ==== PRUEBAS IMAGEN ROTATIVA ==== */
 
 .hero {
   position: relative;
   overflow: hidden;
-  background-color: "img
+  background-image: url(/img/fondoblanco.jpg);
 }
+
+.hero-content img {
+  width: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.fondo, .encima {
+  position: absolute;
+  top: -50px;
+  left: -120px;
+  width: 100%;
+  height: auto;
+  transform-origin: center center; /* gira desde el centro */
+}
+
+/* Gira en sentido horario (derecha) */
+.fondo {
+  animation: girarDerecha 90s linear infinite;
+}
+
+/* Gira en sentido antihorario (izquierda) */
+.encima {
+  animation: girarIzquierda 120s linear infinite;
+}
+
+@keyframes girarDerecha {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes girarIzquierda {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
