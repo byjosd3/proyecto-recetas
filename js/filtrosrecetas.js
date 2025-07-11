@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="contenido-card">
           <h4>${receta.strMeal}</h4>
           <p class="descripcion">${receta.strCategory || ''} - ${receta.strArea || ''}</p>
-          <button class="ver-detalle">Ver receta</button>
+          <button class="ver-detalle" data-id="${receta.idMeal}">Ver receta</button>
         </div>
       </div>
     `;
