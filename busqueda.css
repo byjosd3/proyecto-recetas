@@ -1,3 +1,52 @@
 .hidden  {
     display: none;
 }
+
+#encabezado {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contenedor-superpuesto {
+  position: relative;
+  width: 300px; /* Ajusta según el tamaño de tus imágenes */
+  height: 300px;
+}
+
+.fondo, .encima {
+  position: absolute;
+  top: 0px;
+  left: -90px;
+  width: 100%;
+  height: auto;
+  transform-origin: center center; /* gira desde el centro */
+}
+
+/* Gira en sentido horario (derecha) */
+.fondo {
+  animation: girarDerecha 50s linear infinite;
+}
+
+/* Gira en sentido antihorario (izquierda) */
+.encima {
+  animation: girarIzquierda 30s linear infinite;
+}
+
+@keyframes girarDerecha {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes girarIzquierda {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

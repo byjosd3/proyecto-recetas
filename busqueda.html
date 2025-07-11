@@ -9,26 +9,26 @@
 </head>
 
 <body>
+    <!-- 🔍 NAVBAR -->
     <header>
         <nav>
-            <ul>
-                <li>
-                    <form action="" id="busqueda">
-                        <input type="text" id="buscadorInput" name="inputBusqueda" placeholder="Buscar receta por nombre..." />
-                        <button id="searchBtn">Buscar</button>
-                    </form>
-                </li>
-                <li>
-                    Equipo
-                </li>
-
-            </ul>
+            <h1>COOKLY</h1>
+            <input type="text" id="searchInput" placeholder="Buscar receta por nombre..." />
+            <button id="searchBtn">Buscar</button>
         </nav>
     </header>
 
     <main>
-        <h1>Cookly</h1>
-        <p>Disfruta de la comida sin limite</p>
+        <div id="encabezado">
+            <div class="contenedor-superpuesto">
+                <img src="img/2.png" alt="fondo del plato" class="fondo">
+                <img src="img/1.png" alt="plato" class="encima">
+            </div>
+            <div>
+                <h2>Recetas para ti</h2>
+                <p>Disfruta de la comida sin limite</p>
+            </div>
+        </div>
         <section id="recipes-list">
         </section>
         <div id="responseRecipe">
