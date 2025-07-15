@@ -129,8 +129,9 @@ select {
 }
 
 /* ==== RESULTADOS ==== */
-.resultados h3 {
-  margin-bottom: 1rem;
+.resultados h2 {
+  margin-bottom: 2rem;
+  align-items: center;
 }
 
 #resultadosContainer {

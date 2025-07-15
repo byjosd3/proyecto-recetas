@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recetas Sin Restricciones</title>
+  <title>Recipes Without Limits</title>
   <link rel="stylesheet" href="azar.css" />
 </head>
 <body>
@@ -12,8 +12,8 @@
   <header>
     <nav>
       <h1>COOKLY</h1>
-      <input type="text" id="searchInput" placeholder="Buscar receta por nombre..." />
-      <button id="searchBtn">Buscar</button>
+      <input type="text" id="searchInput" placeholder="Looking for a recipe?" />
+      <button id="searchBtn">Let’s Cook</Search></button>
     </nav>
   </header>
 
@@ -28,9 +28,9 @@
 
       <img src="https://via.placeholder.com/300x200?text=Receta+Saludable" alt="Imagen de receta saludable" />
       <div>
-        <h2>Recetas libres de gluten, alérgenos y más</h2>
-        <p>Encuentra opciones seguras, ricas y conscientes para tu alimentación</p>
-        <button id="randomBtn">Receta al azar</button>
+        <h2>Food You Love, Recipes You Trust</h2>
+        <p>Explore a World of Flavors – All in One Place</p>
+        <button id="randomBtn">Surprise Me!</button>
       </div>
     </div>
   </section>
@@ -44,7 +44,7 @@
                 <div class="filter-group">
                     <label for="category">Category</label>
                     <select id="category">
-                        <option value="">All Categories</option>
+                        <option value="">Type</option>
                         <!-- Filled by JavaScript -->
                     </select>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="filter-group">
                     <label for="ingredient">Ingredient</label>
                     <select id="ingredient">
-                        <option value="">All Ingredients</option>
+                        <option value="">Flavor</option>
                         <!-- Filled by JavaScript -->
 
                     </select>
@@ -61,7 +61,7 @@
                 <div class="filter-group">
                     <label for="country">Country</label>
                     <select id="country">
-                        <option value="">All Countries</option>
+                        <option value="">Origin</option>
                         <!-- Filled by JavaScript -->
                     </select>
                 </div>
@@ -80,15 +80,15 @@
 
   <!-- 📋 RESULTADOS FILTROS (futuro uso) -->
   <section class="resultados">
-    <h3>Resultados</h3>
+    <h2>Results</h2>
     <div id="resultadosContainer">
       <!-- Aquí aparecerán resultados si se implementan los filtros -->
             <div class="card-receta">
                 <img src="URL_IMAGEN" alt="Nombre receta">
                 <div class="contenido-card">
-                    <h4>Nombre de la receta</h4>
-                    <p class="descripcion">Breve descripción o categoría</p>
-                    <button class="ver-detalle">Ver receta</button>
+                    <h4>Featured Recipe</h4>
+                    <p class="descripcion">Brief description</p>
+                    <button class="ver-detalle">View Recipe</button>
                 </div>
             </div>
     </div>
@@ -99,7 +99,7 @@
     <h3 id="recetaNombre"></h3>
     <div class="receta-grid">
       <div class="receta-info">
-        <h4>Ingredientes</h4>
+        <h4>Ingredients</h4>
         <ul id="listaIngredientes"></ul>
       </div>
       <div class="receta-imagen">
@@ -107,7 +107,7 @@
       </div>
     </div>
     <div class="receta-instrucciones">
-      <h4>Preparación</h4>
+      <h4>Preparation</h4>
       <p id="recetaInstrucciones"></p>
     </div>
   </section>

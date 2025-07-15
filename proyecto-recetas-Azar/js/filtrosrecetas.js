@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const categorySelect = document.getElementById("category");
   const ingredientSelect = document.getElementById("ingredient");
