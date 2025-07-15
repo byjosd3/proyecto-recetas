@@ -12,7 +12,10 @@ body {
   color: #333;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0.5rem 0;
 }
 
@@ -67,7 +70,7 @@ nav button:hover {
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #e1fbe1, #ffffff);
-  padding: 2rem;
+  padding: 3rem;
   flex-wrap: wrap;
 }
 
@@ -248,7 +251,10 @@ select {
 
 /* 🔎 Sección de filtros */
 .filter-search-section {
-  padding: 40px 0;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: #f9f9f9;
 }
 
@@ -316,21 +322,21 @@ select {
 
 
 @media (max-width: 768px) {
-    .filter-controls {
-        grid-template-columns: 1fr;
-    }
-    
-    .btn {
-        width: 100%;
-    }
+  .filter-controls {
+    grid-template-columns: 1fr;
+  }
 
-    .hero-content {
-      display: in;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: start;
-}
-    
+  .btn {
+    width: 100%;
+  }
+
+  .hero-content {
+    display: in;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: start;
+  }
+
 }
 
 
@@ -361,13 +367,15 @@ select {
   object-fit: cover;
 }
 
-.fondo, .encima {
+.fondo,
+.encima {
   position: absolute;
   top: -50px;
   left: -120px;
   width: 100%;
   height: auto;
-  transform-origin: center center; /* gira desde el centro */
+  transform-origin: center center;
+  /* gira desde el centro */
 }
 
 /* Gira en sentido horario (derecha) */
@@ -384,6 +392,7 @@ select {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -393,8 +402,8 @@ select {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(-360deg);
   }
 }
-
