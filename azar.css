@@ -370,7 +370,7 @@ select {
 .hero {
   position: relative;
   overflow: hidden;
-  background-image: url(/img/fondoblanco.jpg);
+  background-image: url(img/fondoblanco.jpg);
 }
 
 .hero-content img {
