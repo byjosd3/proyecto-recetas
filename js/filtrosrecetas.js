@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Buscar recetas por categoría (puedes hacer variantes para ingredientes y área)
-  filterBtn.addEventListener("click", () => {
+/* filterBtn.addEventListener("click", () => {
     const categoria = categorySelect.value;
     const ingrediente = ingredientSelect.value;
     const pais = countrySelect.value;
@@ -103,5 +103,5 @@ document.addEventListener("DOMContentLoaded", () => {
         resultadosContainer.innerHTML = "<p>Ocurrió un error al buscar recetas.</p>";
         resultadosSection.style.display = "block";
       });
-  });
+  }); */
 });
